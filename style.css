@@ -1,0 +1,97 @@
+body{
+padding: 0px;
+margin: 0px;
+}
+
+.logo-container{
+    background: url("./assets/banner.jpeg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.main-wrapper{
+    background: #ffcc1a;
+}
+
+#heading-2{
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+.nav-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav-item{
+    list-style: none;
+    padding: 15px 130px;
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+    font-size: larger;
+    margin-bottom: 10px;
+    
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+#nav-item:hover{
+    background: red;
+}
+
+.cheezy-img{
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 15px;
+}
+
+.services{
+ display: flex;   
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ margin-top: 10px; 
+}
+
+.services img{
+    height: 280px;
+    width: 290px;
+    border-radius: 10px;
+}
+
+.services1{
+    display: flex;   
+    /* flex-wrap: wrap */
+    margin-top: 10px;
+    margin: 10px;
+
+   }
+
+   .services1 img{
+    height: 250px;
+    width: 290px;
+    border-radius: 10px;
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 1px;
+
+} 
+
+#email{
+    color: black;
+    text-decoration: underline;
+}
+
+#copyright{
+    color: black;
+    text-decoration:underline;
+}
